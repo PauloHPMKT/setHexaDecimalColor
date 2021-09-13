@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'century gothic', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    text-align: center;
+}
+
+.container h1 {
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.container button {
+    padding: 10px 50px;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    background-color: #3d96fc;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #155285;
+    transition: 400ms;
+}
+
+#hexCode {
+    font-size: 30px;
+    margin-bottom: 100px;
+}
